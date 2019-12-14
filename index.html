@@ -1,0 +1,121 @@
+<!--Eric Chings-->
+
+<!DOCTYPE>
+<html>
+<head>
+<title>Home</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ <script src = './api/api.js' defer></script>
+ <link rel="stylesheet" href="./styles/stylesheet-web.css" media="screen and (min-width:600px)">
+ <link rel="stylesheet" href="./styles/stylesheet-mobile.css" media="screen and (max-width:400px)">
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-light bg-lightsticky-top">
+  <div class="container-fluid">
+    <img src= ".\images\sju_logo.png" alt="logo" style ="width: 200px">
+
+    <form class="my-2 my-lg-0 " id= "search">
+      <input type="text" placeholder="eg: CUS1115" name="search" id ="input" onkeyup="getSearch()" >
+    </form>
+  </div>
+</nav>
+
+</br>
+
+<div class="container-fluid">
+    <!-- Control the column width, and how they should appear on different devices -->
+  <div class = "collumn">
+    <div class="row">
+      <div class="col-sm-2" id ="buttons">
+
+        <div class="container" id="search_by_major">
+          <div class="btn-group">
+            <button type="button" class="btn btn-primary">Major</button>
+            <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+              <span class="caret"></span>
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" onclick="getCUS()">CUS</a>
+              <a class="dropdown-item" onclick="getCSS()">CSS</a>
+              <a class="dropdown-item" onclick="getIT()">IT</a>
+              <a class="dropdown-item" onclick="getNET()">NET</a>
+              <a class="dropdown-item" onclick="getHI()">HI</a>
+              <a class="dropdown-item" onclick="getMTH()">MTH</a>
+            </div>
+          </div>
+        </div>
+
+      </br>
+
+
+        <div class="container" id="search_by_day">
+          <div class="btn-group">
+            <button type="button" class="btn btn-primary">Day</button>
+            <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+              <span class="caret"></span>
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" onclick="getMon()">Mon</a>
+              <a class="dropdown-item" onclick="getTue()">Tue</a>
+              <a class="dropdown-item" onclick="getWed()">Wed</a>
+              <a class="dropdown-item" onclick="getThurs()">Thurs</a>
+              <a class="dropdown-item" onclick="getFri()">Fri</a>
+              <a class="dropdown-item" onclick="getSat()">Sat</a>
+            </div>
+          </div>
+        </div>
+
+      </br>
+      <div class="container" id="search_by_open">
+        <div class="btn-group">
+          <button type="button" class="btn btn-primary" onclick="getOpen()">Open</button>
+        </div>
+      </div>
+
+
+    </div class= "HTML_table">
+      <div class="col-sm-10" id="grids">
+        <div class="container-fluid">
+
+          <table class="table table-bordered table-hover" >
+
+            <thead>
+              <tr>
+                <th>Course</th>
+                <th>Title</th>
+                <th>Credits</th>
+                <th>Seats</th>
+                <th>Type</th>
+                <th>Days</th>
+                <th>Instructor</th>
+              </tr>
+            </thead>
+            <tbody id="output">
+
+
+            </tbody>
+          </table>
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>

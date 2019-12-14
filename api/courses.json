@@ -1,0 +1,213 @@
+{
+	"Computer_Science": [{
+			"course": "CUS 1115",
+			"title": "COMPUTER PROG FUND I",
+			"credits": 3,
+			"seats": 5,
+			"type": "Lecture",
+			"days": "Wednesday 10:40-1:30 ",
+			"instructor": "Jun Wu"
+
+		},
+
+		{
+			"course": "CUS 1115",
+			"title": "COMPUTER PROG FUND I",
+			"credits": 3,
+			"seats": 0,
+			"type": "Lecture",
+			"days": "Monday Thursday 9:05-10:30",
+			"instructor": "Joan DeBello"
+
+		},
+
+		{
+			"course": "CUS 1116",
+			"title": "COMPUTER PROG FUND II",
+			"credits": 3,
+			"seats": 3,
+			"type": "Lecture",
+			"days": "Wednesday 1:50-4:40",
+			"instructor": "Jun Wu"
+		},
+		{
+			"course": "CUS 1116",
+			"title": "COMPUTER PROG FUND II",
+			"credits": 3,
+			"seats": 7,
+			"days": " Monday Thursday 9:05-10:30",
+			"instructor": " Anne Smith-Thompson"
+		},
+		{
+			"course": "CUS 1156",
+			"title": "SOFTWARE DESIGN METHODS",
+			"credits": 3,
+			"seats": 8,
+			"type": "Lecture",
+			"days": "Monday Thursday 10:40-12:05 ",
+			"instructor": "Bonnie MacKellar"
+
+		},
+		{
+			"course": "CUS 1156",
+			"title": "SOFTWARE DESIGN METHODS",
+			"credits": 3,
+			"seats": 15,
+			"type": "Lecture",
+			"days": " Tuesday Friday 1:50-3:15",
+			"instructor": " Syed Ahmad Chan Bukhari"
+
+		},
+		{
+			"course": "CUS 1166",
+			"title": "SOFTWARE ENGINEERING",
+			"credits": 3,
+			"seats": 4,
+			"type": "Lecture",
+			"days": "Wednesday 1:50-4:40",
+			"instructor": "Christoforos Christoforou"
+		}
+	],
+	"Computer_Security_System": [{
+			"course": "CSS 1005",
+			"title": "FUNDAMENTALS OF CYBER SECURITY",
+			"credits": 3,
+			"seats": 1,
+			"type": "Lecture",
+			"days": "Monday Thursday 12:15-1:40",
+			"instructor": "Juan Otero"
+		},
+		{
+			"course": "CSS 1006",
+			"title": "MGT OF INFORMATION SECURITY",
+			"credits": 3,
+			"seats": 0,
+			"type": "Lecture",
+			"days": "Wednesday 5:00-7:50",
+			"instructor": "Geoffrey Dick"
+
+		},
+		{
+			"course": "CSS 1008",
+			"title": "MGT OF INFORMATION SECURITY",
+			"credits": 3,
+			"seats": 4,
+			"type": "Lecture",
+			"days": "Friday 10:40-12:05",
+			"instructor": "Suzanna Schmeelk"
+
+		},
+		{
+			"course": "CSS 1032",
+			"title": "CYBER THREATS AND DETECTION",
+			"credits": 3,
+			"seats": 7,
+			"type": "Lecture",
+			"days": "Tuesday Friday 10:40-12:05",
+			"instructor": "Erald Troja"
+
+		}
+	],
+	"Information_Technology": [{
+		"course": "IT 1011",
+		"title": "INFO TECHNOLOGY FOR BUSINESS",
+		"credits": 3,
+		"seats": 3,
+		"type": "Hybrid",
+		"days": "Monday Thursday 9:05-10:30",
+		"instructor": "Geoffry Dick"
+
+	}],
+	"Networking": [{
+			"course": "NET 1011 ",
+			"title": "INTRODUCTION TO NETWORKS",
+			"credits": 3,
+			"seats": 1,
+			"type": "Online",
+			"days": "Wednesday 7:30-10:20",
+			"instructor": "Maxine Greenidge"
+
+		},
+		{
+			"course": "NET 1015 ",
+			"title": "ROUTING & SWITCHING ESSENTIALS",
+			"credits": 3,
+			"seats": 8,
+			"type": "Hybrid-Classroom & Online",
+			"days": "Saturday 8:30-11:20",
+			"instructor": "John Rullan"
+		},
+		{
+			"course": "NET 1031",
+			"title": "WIRELESS NETWORKING",
+			"credits": 3,
+			"seats": 11,
+			"type": "Lecture",
+			"days": "Saturday 12:30-15:20",
+			"instructor": "Feliz Fischman"
+		}
+	],
+	"Healthcare_informatics": [{
+			"course": "HCI 1001",
+			"title": "INTRO HEALTHCARE INFORMATICS",
+			"credits": 3,
+			"seats": 1,
+			"type": "Lecture",
+			"days": "Wednesday 10:40-1:30",
+			"instructor": "Syed Ahmad Chan Bukhari"
+
+
+		},
+		{
+			"course": "HCI 1021",
+			"title": "HEALTHCARE DATABASE MGT SYS",
+			"credits": 3,
+			"seats": 5,
+			"type": "Lecture",
+			"days": "Wednesday 10:40-1:30",
+			"instructor": "Bonnie MacKellar"
+
+		}
+	],
+	"Mathmatics": [{
+			"course": "MTH 1009",
+			"title": "CALCULUS I",
+			"credits": 3,
+			"seats": 5,
+			"type": "Lecture",
+			"days": "Tuesday Friday 3:25-4:50",
+			"instructor": "Michael Vaisfeld"
+
+		},
+		{
+			"course": "MTH 1013",
+			"title": "PROBABILITY AND STATISTICS I",
+			"credits": 3,
+			"seats": 13,
+			"type": "Hybrid-Classroom & Online",
+			"days": "Tuesday 9:05-10:30",
+			"instructor": "Frank Servas"
+
+		},
+		{
+			"course": "MTH 1010",
+			"title": "CALCULUS II",
+			"credits": 3,
+			"seats": 2,
+			"type": "Lecture",
+			"days": "Tuesday Friday ",
+			"instructor": "Gerald Latzman"
+
+		},
+		{
+			"course": "MTH 1017",
+			"title": "Mathmatical Logic",
+			"credits": 3,
+			"seats": 4,
+			"type": "Hybrid-Classroom & Online",
+			"days": "Wednesday 5:00-6:25",
+			"instructor": "Ronald Fechter"
+
+		}
+	]
+}

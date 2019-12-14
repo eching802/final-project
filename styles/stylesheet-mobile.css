@@ -1,0 +1,16 @@
+.navbar {
+  padding-left:30px;
+  padding-right:450px;
+
+}
+#input{
+  width: 200px;
+  padding: 15px;
+  text-align: left;
+  text-decoration: underline;
+  text-decoration-color: #e60000;
+  font-style: italic;
+  font-family: sans-serif;
+
+
+}
